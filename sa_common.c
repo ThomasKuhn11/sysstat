@@ -431,7 +431,7 @@ void enum_version_nr(struct file_magic *fm)
  */
 int write_all(int fd, const void *buf, int nr_bytes)
 {
-	int test = 1;
+	int test = 0;
 	int block, offset = 0;
 	char *buffer = (char *) buf;
 
